@@ -1,7 +1,7 @@
 
 # Rapport
 
-Det fanns redan en contrain layout så jag jobbade vidare med den istället för att byta ut den mot en linearlayout.
+Det fanns redan en constrain layout så jag jobbade vidare med den istället för att byta ut den mot en linearlayout.
 
 Efter det lade jag till en Button, EditText och en ImageView. Detta gjordes genom att lägga till följande kod i `activity_main.xml`
 
@@ -25,7 +25,8 @@ Efter det lade jag till en Button, EditText och en ImageView. Detta gjordes geno
        />
 ```
 
-Efter detta lades constraint till samt margins, jag ändrade och lekte lite med storlek och färg på de olika widgetterna. Ett exempel på detta är min knapp
+Efter detta lades constraint till samt margins, jag ändrade och lekte lite med storlek och färg på de olika widgetterna.
+Ett exempel på detta är min knapp
 som efter alla ändringar har koden:
 
 ```
@@ -41,8 +42,8 @@ som efter alla ändringar har koden:
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 ```
-Där storleken på kanppen är 300 x 400 och margin är 10 så den är 10dp från kanten. Ändrade bakgrundsfärg och satte knappens text till "Button".
-Ändrade stilen till kursivt och satte constraints så att den sitter högst upp och mellan sidorna.
+Där storleken på kanppen är 300 x 400 och margin är 10 så den är 10dp från kanten. Ändrade bakgrundsfärg och satte knappens
+text till "Button". Ändrade stilen till kursivt och satte constraints så att den sitter högst upp och mellan sidorna.
 
 
 ![](screenshot.png)
